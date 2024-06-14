@@ -3,7 +3,7 @@ import Card from "../Components/CardComp";
 
 function CardApp() {
   return (
-    <div className=" flex gap-4 ">
+    <div className=" flex gap-4 pl-14 ">
       <Card
         title="Pyramid Scheme"
         technologies="Reach + Nextjs + TailwindCSS"

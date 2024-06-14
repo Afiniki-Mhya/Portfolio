@@ -3,7 +3,14 @@ import React, { useState, useEffect } from "react";
 import Cards from "../CardComp";
 
 function Slider() {
-  const images = ["tanjiro.jpg", "auto.png", "nash.png", "rps.png", "ps.png"];
+  const images = [
+    "tanjiro.jpg",
+    "auto.png",
+    "nash.png",
+    "rps.png",
+    "ps.png",
+    "jlistings.png",
+  ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -30,7 +37,7 @@ function Slider() {
           <img
             src={image}
             alt={`Slide ${index + 1}`}
-            className="w-full h-full object-fill"
+            className="w-full h-full object-fill rounded-bl-2xl"
           />
         </div>
       ))}
