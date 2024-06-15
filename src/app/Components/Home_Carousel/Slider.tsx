@@ -4,9 +4,7 @@ import Cards from "../CardComp";
 
 function Slider() {
   const images = [
-    "tanjiro.jpg",
     "auto.png",
-    "nash.png",
     "rps.png",
     "ps.png",
     "jlistings.png",
@@ -37,7 +35,7 @@ function Slider() {
           <img
             src={image}
             alt={`Slide ${index + 1}`}
-            className="w-full h-full object-fill rounded-bl-2xl"
+            className="w-full h-full md:object-fill object-contain md:rounded-bl-2xl"
           />
         </div>
       ))}
