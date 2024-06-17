@@ -7,7 +7,9 @@ function Slider() {
     "auto.png",
     "rps.png",
     "ps.png",
+    "Tron.png",
     "jlistings.png",
+    
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
