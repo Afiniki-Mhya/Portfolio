@@ -29,7 +29,7 @@ function ExplorePage() {
           technologies="React + Nextjs + TailwindCSS"
           description="Blockchain based ponzi scheme"
           />
-          {/* <ExploreCard
+          <ExploreCard
              icons={[
               { icon: <IoIosEye />, link: "https://job-listings-5owk.vercel.app/" },
               { icon: <FaCodeBranch />, link: "https://github.com/Afiniki-Mhya/JobListings" },
@@ -64,7 +64,7 @@ function ExplorePage() {
             title="Another Scheme"
             technologies="React + Express + SCSS"
             description="A unique project description"
-          /> */}
+          />
         </div>
       </div>
     </main>
